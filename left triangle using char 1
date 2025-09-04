@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class hello
+{
+	public static void main(String[] args) {
+	   Scanner scan = new Scanner(System.in);
+      char letter = scan.next().charAt(0);
+       for(char i='A';i<=letter;i++){
+        for(char j='A';j<=i;j++){
+          System.out.print(j+" ");
+        }
+   System.out.println(" ");
+}
+  }
+}
